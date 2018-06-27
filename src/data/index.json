@@ -1,6 +1,30 @@
 {
     "articles": [
         {
+            "id":"038",
+            "title":"10 JavaScript array methods you should know",
+            "link":"https://dev.to/frugencefidel/10-javascript-array-methods-you-should-know-4lk3",
+            "keywords":["Javascript"]
+        },
+        {
+            "id":"037",
+            "title":"How To Build Dynamic Components in Angular 6",
+            "link":"https://blog.bitsrc.io/how-to-build-dynamic-components-in-angular-6-41f50abddc64",
+            "keywords":["AngularJS","Angular6"]
+        },
+        {
+            "id":"036",
+            "title":"Build A JavaScript Single Page App Without A Framework",
+            "link":"https://www.sitepoint.com/single-page-app-without-framework/",
+            "keywords":["Javascript"]
+        },
+        {
+            "id":"035",
+            "title":"How JavaScript works: the internals of Shadow DOM + how to build self-contained components",
+            "link":"https://blog.sessionstack.com/how-javascript-works-the-internals-of-shadow-dom-how-to-build-self-contained-components-244331c4de6e",
+            "keywords":["react", "shadow-dom"]
+        },
+        {
             "id":"034",
             "title":"Need to store some data?",
             "link":"https://blog.codepen.io/2018/06/07/need-to-store-some-data/",
