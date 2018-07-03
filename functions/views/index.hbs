@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="/styles/skeleton.css" />
     <title>Weekend Reading Articles</title>
 </head>
+
 <body>
-    <ul>
-        {{#each articles}}
-        <li>{{title}}<br/>{{link}}</li>
-        {{/each}}
-        
-    </ul>
+    <div class="container">
+        <header>
+            <img src="/images/logo.jpg" alt="XT" style="width: 150px;">
+        </header>
+
+        <div class="row text-right">
+            <input class="button-primary" type="button" value="Publish" />
+        </div>
+
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Article</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each articles}}
+                <tr>
+                    <td>
+                        <label class="example-send-yourself-copy">
+                            <input type="checkbox" id="{{id}}" name="article_chk_box">
+                            <span class="label-body hidden">Publish</span>
+                        </label>
+                    </td>
+                    <td>{{title}}
+                        <br/><a href="{{link}}" target="_blank">{{link}}</a></td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+    <footer class="text-center">
+        <p>Copyright 2018-2019.</p>
+    </footer>
 </body>
+
 </html>

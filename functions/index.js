@@ -2,6 +2,8 @@ const functions = require('firebase-functions');
 const firebaseAdmin = require("firebase-admin");
 const express = require("express");
 const engines = require("consolidate");
+const bodyParser = require("body-parser");
+const jsonParser = bodyParser.json()
 
 firebaseAdmin.initializeApp(
     functions.config().firebase
@@ -30,7 +32,7 @@ app.get('/admin', (req, res) => {
     
 })
 
-app.get('/articles/list', (req, res) => {
+app.get('/admin/articles', (req, res) => {
     console.log("insdie articles list");
     res.set('Cache-Control', 'public, max-age:300, s-maxage=600');
     
@@ -53,6 +55,18 @@ app.get('/articles/list', (req, res) => {
     .catch((err) => {
       console.log('Error getting documents', err);
     });   
+    
+})
+
+app.post('/admin/articles', jsonParser, (req, res) => {
+    console.log("insdie articles post method");
+    
+    if (req.body) {
+        res.status(200).send('Thanks for sharing the article. Post approval this article will be published to weekend read portal');
+    } else {
+        return res.status(400).send({"error":"You have sent invalid format"}).end();
+    }
+      
     
 })
 
