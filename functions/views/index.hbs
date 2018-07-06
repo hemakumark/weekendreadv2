@@ -17,9 +17,9 @@
         </header>
 
         <div class="row text-right">
-            <input class="button-primary" type="button" value="Publish" />
+            <input class="button-primary" type="button" value="Publish" id="publishBtn"/>
         </div>
-
+<form action="" name="articleListForm">
         <table class="u-full-width">
             <thead>
                 <tr>
@@ -31,10 +31,15 @@
                 {{#each articles}}
                 <tr>
                     <td>
-                        <label class="example-send-yourself-copy">
-                            <input type="checkbox" id="{{id}}" name="article_chk_box">
-                            <span class="label-body hidden">Publish</span>
-                        </label>
+                        {{#if published}}
+                            &nbsp;
+                        {{else}}
+                            <label class="example-send-yourself-copy">
+                                <input type="checkbox" id="{{id}}" name="article_chk_box" class="" value="{{id}}">
+                                <span class="label-body hidden">Publish</span>
+                            </label>
+                        {{/if}}
+                        
                     </td>
                     <td>{{title}}
                         <br/><a href="{{link}}" target="_blank">{{link}}</a></td>
@@ -42,10 +47,13 @@
                 {{/each}}
             </tbody>
         </table>
+        </form>
     </div>
     <footer class="text-center">
         <p>Copyright 2018-2019.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/javascript/app.js"></script>
 </body>
 
 </html>
