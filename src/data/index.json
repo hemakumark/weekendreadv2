@@ -1,6 +1,156 @@
 {
     "articles": [
         {
+            "id":"068",
+            "title":"Combining HOCs with the new React’s Context API",
+            "link":"https://itnext.io/combining-hocs-with-the-new-reacts-context-api-9d3617dccf0b",
+            "keywords":["react"]
+        },
+        {
+            "id":"067",
+            "title":"React 16.3 Lifecycle Methods",
+            "link":"https://medium.com/@mksglu/react-16-3-lifecycle-methods-7ac4e2f2024a",
+            "keywords":["react"]
+        },
+        {
+            "id":"066",
+            "title":"GraphQL Server Tutorial with Apollo Server and Express",
+            "link":"https://www.robinwieruch.de/graphql-apollo-server-tutorial/",
+            "keywords":["react", "graphql"]
+        },
+        {
+            "id":"065",
+            "title":"A BRIEF GUIDE TO USING WEBPAGETEST",
+            "link":"https://frontendnews.io/editions/2018-08-22-a-brief-guide-to-webpagetest",
+            "keywords":["performance"]
+        },
+        {
+            "id":"064",
+            "title":"Ajax module in Vanilla JS",
+            "link":"https://github.com/fdaciuk/ajax",
+            "keywords":["javascript", "ajax"]
+        },
+        {
+            "id":"063",
+            "title":"JavaScript fundamentals before learning React",
+            "link":"https://www.robinwieruch.de/javascript-fundamentals-react-requirements/",
+            "keywords":["javascript", "react"]
+        },
+        {
+            "id":"062",
+            "title":"::before vs :before",
+            "link":"https://css-tricks.com/to-double-color-or-not-do-double-colon/",
+            "keywords":["css"]
+        },
+        {
+            "id":"061",
+            "title":"11 Javascript Utility Libraries You Should Know In 2018",
+            "link":"https://blog.bitsrc.io/11-javascript-utility-libraries-you-should-know-in-2018-3646fb31ade",
+            "keywords":["javascript","utility"]
+        },
+        {
+            "id":"060",
+            "title":"FUSION.JS - A plugin-based universal web framework",
+            "link":"https://fusionjs.com/",
+            "keywords":["javascript","react", "universal"]
+        },
+        {
+            "id":"059",
+            "title":"THE DEFINITIVE GUIDE TO JAVASCRIPT DATES",
+            "link":"https://flaviocopes.com/javascript-dates/",
+            "keywords":["javascript"]
+        },
+        {
+            "id":"058",
+            "title":"Roadmap to becoming a React developer in 2018",
+            "link":"https://github.com/adam-golab/react-developer-roadmap",
+            "keywords":["react"]
+        },
+        {
+            "id":"057",
+            "title":"Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API",
+            "link":"https://github.com/localForage/localForage",
+            "keywords":["javascript","localstorage"]
+        },
+        {
+            "id":"056",
+            "title":"Developer Roadmaps",
+            "link":"https://css-tricks.com/developer-roadmaps/",
+            "keywords":["javascript","react"]
+        },
+        {
+            "id":"055",
+            "title":"JavaScript fundamentals before learning React",
+            "link":"https://www.robinwieruch.de/javascript-fundamentals-react-requirements/",
+            "keywords":["javascript","react"]
+        },
+        {
+            "id":"054",
+            "title":"The Best Explanation of JavaScript Reactivity",
+            "link":"https://medium.com/vue-mastery/the-best-explanation-of-javascript-reactivity-fea6112dd80d",
+            "keywords":["javascript"]
+        },
+        {
+            "id":"053",
+            "title":"10 JavaScript string methods you should know",
+            "link":"https://dev.to/frugencefidel/10-javascript-string-methods-you-should-know-4l76",
+            "keywords":["javascript"]
+        },
+        {
+            "id":"052",
+            "title":"tiny javascript plugin for creating stackable modals",
+            "link":"https://oncebot.github.io/popbox.js/",
+            "keywords":["javascript"]
+        },
+        {
+            "id":"051",
+            "title":"A markdown-like language for diagrams",
+            "link":"https://mermaidjs.github.io/",
+            "keywords":["markdown"]
+        },
+        {
+            "id":"050",
+            "title":"unpkg is a fast, global content delivery network for everything on npm",
+            "link":"https://unpkg.com/#/",
+            "keywords":["npm"]
+        },
+        {
+            "id":"049",
+            "title":"React component patterns",
+            "link":"https://medium.com/teamsubchannel/react-component-patterns-e7fb75be7bb0",
+            "keywords":["react"]
+        },
+        {
+            "id":"048",
+            "title":"Comparing bundlers: Webpack, Rollup & Parcel",
+            "link":"https://medium.com/js-imaginea/comparing-bundlers-webpack-rollup-parcel-f8f5dc609cfd",
+            "keywords":["webpack","rollup", "parcel"]
+        },
+        {
+            "id":"047",
+            "title":"A Deep Dive into Chrome’s Dev Console",
+            "link":"https://www.sitepoint.com/optimization-auditing-a-deep-dive-into-chromes-dev-console/",
+            "keywords":["chrome","devtools", "console"]
+        },
+        {
+            "id":"046",
+            "title":"Why GraphQL: Advantages, Disadvantages & Alternatives",
+            "link":"https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/",
+            "keywords":["redux","graphql"]
+        },
+        {
+            "id":"045",
+            "title":"ES modules: A cartoon deep-dive",
+            "link":"https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/",
+            "keywords":["es6","javascript"]
+        },
+        {
+            "id":"044",
+            "title":"Understanding Redux: The World’s Easiest Guide to Beginning Redux",
+            "link":"https://medium.freecodecamp.org/understanding-redux-the-worlds-easiest-guide-to-beginning-redux-c695f45546f6",
+            "keywords":["react","redux"]
+        },
+        {
             "id":"043",
             "title":"Build anything you want with JavaScript",
             "link":"https://learnjavascript.today/",
