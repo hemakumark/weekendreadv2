@@ -1,6 +1,60 @@
 {
     "articles": [
         {
+            "id":"077",
+            "title":"The Gatsby store for swag and other Gatsby goodies.",
+            "link":"https://github.com/gatsbyjs/store.gatsbyjs.org",
+            "keywords":["gatsby", "react"]
+        },
+        {
+            "id":"076",
+            "title":"Immutability in React and Redux: The Complete Guide",
+            "link":"https://daveceddia.com/react-redux-immutability-guide/",
+            "keywords":["Javascript", "react"]
+        },
+        {
+            "id":"075",
+            "title":"The 12 Things You Need to Consider When Evaluating Any New JavaScript Library",
+            "link":"https://medium.freecodecamp.org/the-12-things-you-need-to-consider-when-evaluating-any-new-javascript-library-3908c4ed3f49",
+            "keywords":["Javascript"]
+        },
+        {
+            "id":"074",
+            "title":"Page Lifecycle API",
+            "link":"https://developers.google.com/web/updates/2018/07/page-lifecycle-api",
+            "keywords":["javascript", "performance"]
+        },
+        {
+            "id":"073",
+            "title":"Idle Until Urgent",
+            "link":"https://philipwalton.com/articles/idle-until-urgent/",
+            "keywords":["javascript", "performance"]
+        },
+        {
+            "id":"072",
+            "title":"Removing jQuery from GitHub.com frontend",
+            "link":"https://githubengineering.com/removing-jquery-from-github-frontend/",
+            "keywords":["javascript"]
+        },
+        {
+            "id":"071",
+            "title":"Setting up multi-platform npm packages",
+            "link":"http://2ality.com/2017/04/setting-up-multi-platform-packages.html#support-by-bundlers",
+            "keywords":["javascript"]
+        },
+        {
+            "id":"070",
+            "title":"Comparing the React and Vue Ecosystems with a Real-World SPA",
+            "link":"https://vuejsdevelopers.com/2018/09/04/comparing-vue-and-react/",
+            "keywords":["react", "vuejs"]
+        },
+        {
+            "id":"069",
+            "title":"THE DEFINITIVE REACTJS RESOURCES GUIDE",
+            "link":"https://x-team.com/react-resources/",
+            "keywords":["react"]
+        },
+        {
             "id":"068",
             "title":"Combining HOCs with the new React’s Context API",
             "link":"https://itnext.io/combining-hocs-with-the-new-reacts-context-api-9d3617dccf0b",
@@ -292,7 +346,7 @@
             "id":"020",
             "title":"Using a library in your webpack project? Here’s how to optimize it",
             "link":"https://github.com/GoogleChromeLabs/webpack-libs-optimizations",
-            "keywords":["webpack","peformance"]
+            "keywords":["webpack","performance"]
         },
         {
             "id":"019",
@@ -358,7 +412,7 @@
             "id":"009",
             "title":"A command line tool to measure the efficiency of your responsive image markup across viewport sizes and device pixel ratios.",
             "link":"https://github.com/filamentgroup/imaging-heap",
-            "keywords":["peformance","responsive-images"]
+            "keywords":["performance","responsive-images"]
         },
         {
             "id":"008",
